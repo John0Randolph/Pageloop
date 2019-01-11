@@ -122,7 +122,7 @@ function buildNumLoops() {
  * number of pages - and insert it into the page
  */
 function buildNumPages() {
-  html2 = ""
+  html2 = "";
   for (i = 1; i <= MAX_NUM_PAGES; i++) { // for every loop
     init = 3;
     if (NUM_PAGES.length >= i) {

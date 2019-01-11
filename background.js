@@ -92,7 +92,7 @@ function getStoredLoop() {
                      stripFront(res.page_five), stripFront(res.page_six), stripFront(res.page_seven), stripFront(res.page_eight),
                      stripFront(res.page_nine)];
         } else {
-            alertify.alert("ERROR: num_pages not between 1 and 9")
+            alertify.alert("ERROR: num_pages not between 1 and 9");
         }
   });
 }
