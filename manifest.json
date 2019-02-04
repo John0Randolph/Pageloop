@@ -1,15 +1,17 @@
 /**
  * Page Loop, version 1.0
- * July 2018
+ * 2019
  * project of John Randolph
  *
  * KNOWN BUGS:
+ * - boxes have stopped showing up
  * - using timeout in background.js when returning current page
  * - only .com is supported in stripping
  * - can't handle multiple pages of same site
  * - alert when data is saved doesn't always work
  * 
  * TODO:
+ * - fix boxes functionality
  * - look up way to make script run on options page (content_script matching not working)
  * - research ways to make html dynamic without php (js?)
  *   - looks like AJAX is the solution, actually not sure
